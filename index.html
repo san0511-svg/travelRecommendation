@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Travel Recommendation</title>
+  <link rel="stylesheet" href="travel.css">
+</head>
+<body>
+  <nav>
+    <h1>Travel Explorer</h1>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="about.html">Acerca de nosotros</a></li>
+      <li><a href="contact.html">Contáctanos</a></li>
+      <li>
+        <input type="text" id="searchInput" placeholder="Buscar: playa, templo, país...">
+        <button id="searchBtn">Buscar</button>
+        <button id="clearBtn">Limpiar</button>
+      </li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <h2>Explora. Descubre. Viaja.</h2>
+    <p>Encuentra los mejores destinos según tus gustos.</p>
+    <button onclick="alert('Reserva iniciada')">¡Reserva ahora!</button>
+  </header>
+
+  <main>
+    <div id="results" class="results"></div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Travel Explorer</p>
+    <div class="socials">
+      <a href="#">🌍</a>
+      <a href="#">📸</a>
+      <a href="#">✈️</a>
+    </div>
+  </footer>
+
+  <script src="travel_recommendation.js"></script>
+</body>
+</html>

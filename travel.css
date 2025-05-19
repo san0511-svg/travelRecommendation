@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f2f2f2;
+  color: #333;
+}
+
+nav {
+  background-color: #004080;
+  color: white;
+  padding: 10px;
+}
+
+nav h1 {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: inline;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/5e/Bavaro_Beach_Dominican_Republic.jpg');
+  background-size: cover;
+  padding: 60px 20px;
+  color: white;
+  text-align: center;
+}
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin: 15px;
+  padding: 15px;
+  max-width: 300px;
+  text-align: center;
+}
+
+footer {
+  background-color: #004080;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+footer .socials a {
+  color: white;
+  margin: 0 10px;
+  font-size: 1.2em;
+}

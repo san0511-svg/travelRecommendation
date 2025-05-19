@@ -1,0 +1,40 @@
+{
+    "recommendations": [
+      {
+        "name": "Playa Bávaro",
+        "country": "República Dominicana",
+        "type": "playa",
+        "description": "Una de las playas más famosas del Caribe con arena blanca y aguas cristalinas.",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Bavaro_Beach_Dominican_Republic.jpg"
+      },
+      {
+        "name": "Templo Senso-ji",
+        "country": "Japón",
+        "type": "templo",
+        "description": "El templo budista más antiguo de Tokio, ubicado en Asakusa.",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Sensoji_2022.jpg"
+      },
+      {
+        "name": "Playa Copacabana",
+        "country": "Brasil",
+        "type": "playa",
+        "description": "Famosa playa urbana en Río de Janeiro con gran ambiente y cultura local.",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Copacabana_Beach_Rio_de_Janeiro.jpg"
+      },
+      {
+        "name": "Templo Dorado",
+        "country": "India",
+        "type": "templo",
+        "description": "Lugar sagrado del sijismo en Amritsar, rodeado de un lago sereno.",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Golden_Temple_in_the_evening.jpg"
+      },
+      {
+        "name": "Madrid",
+        "country": "España",
+        "type": "ciudad",
+        "description": "Capital cultural de España con arquitectura impresionante y vida nocturna vibrante.",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Palacio_de_Cibeles_Madrid_2016.jpg"
+      }
+    ]
+  }
+  

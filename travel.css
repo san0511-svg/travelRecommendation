@@ -1,4 +1,4 @@
-/* Estilos generales */
+/* Estilo base */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,7 +7,7 @@ body {
     color: #333;
   }
   
-  /* Navegación superior */
+  /* NAV BAR */
   nav {
     background-color: #004080;
     color: white;
@@ -23,12 +23,11 @@ body {
   }
   
   nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    list-style: none;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    margin: 0;
+    padding: 0;
   }
   
   nav ul li {
@@ -41,15 +40,32 @@ body {
     font-weight: bold;
   }
   
-  /* Hero principal con fondo */
+  /* HERO con fondo */
   .hero {
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/5e/Bavaro_Beach_Dominican_Republic.jpg');
+    background-image: url('https://images.unsplash.com/photo-1526772662000-3f88f10405ff?auto=format&fit=crop&w=1350&q=80');
     background-size: cover;
     background-position: center;
-    padding: 80px 20px;
+    padding: 100px 20px;
     text-align: center;
     color: white;
   }
+  .hero {
+    position: relative;
+  }
+  
+  .hero::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.4); /* oscurecer fondo */
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: 0;
+  }
+  
+  .hero h2, .hero p, .hero button {
+    position: relative;
+    z-index: 1;
+  }
+  
   
   .hero h2 {
     font-size: 2.5em;
@@ -70,30 +86,23 @@ body {
     border-radius: 5px;
   }
   
-  /* Resultados de búsqueda */
-  .results {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  .hero button:hover {
+    background-color: #0059b3;
+    color: white;
+    transform: scale(1.05);
+    transition: 0.2s;
+  }
+  
+  /* Main content */
+  main {
     padding: 20px;
-  }
-  
-  .card {
+    max-width: 800px;
+    margin: 0 auto;
     background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    margin: 15px;
-    padding: 15px;
-    max-width: 300px;
-    text-align: center;
+    border-radius: 8px;
   }
   
-  .card img {
-    max-width: 100%;
-    border-radius: 5px;
-  }
-  
-  /* Pie de página */
+  /* Footer */
   footer {
     background-color: #004080;
     color: white;
@@ -105,5 +114,66 @@ body {
     color: white;
     margin: 0 10px;
     font-size: 1.5em;
+  }
+  
+  /* Formulario */
+  form {
+    margin-top: 20px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background-color: #004080;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  form button:hover {
+    background-color: #0066cc;
+  }
+  
+  /* Cards de resultados */
+  .results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 15px;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .card img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  /* Redes sociales arriba */
+  .socials-top {
+    text-align: center;
+    margin: 15px 0;
+  }
+  
+  .socials-top a {
+    margin: 0 10px;
+    font-size: 1.8em;
+    text-decoration: none;
   }
   

@@ -5,35 +5,42 @@
         "country": "República Dominicana",
         "type": "playa",
         "description": "Una de las playas más famosas del Caribe con arena blanca y aguas cristalinas.",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Bavaro_Beach_Dominican_Republic.jpg"
-      },
-      {
-        "name": "Templo Senso-ji",
-        "country": "Japón",
-        "type": "templo",
-        "description": "El templo budista más antiguo de Tokio, ubicado en Asakusa.",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Sensoji_2022.jpg"
+        "imageUrl": "https://lonelyplanetes.cdnstatics2.com/cdn/ff/-78ypXqxYi0Zg7CpCVV3z56-7UbFPOvCgHlxVUYdEOM/1726132945/public/styles/1536x864_scale_crop/public/media/espana_galicia_lugo_ribadeo_playaascatedrais_shutterstock_1327271852_vicphotoria_shutterstock.jpg?itok=u1nU5h19"
       },
       {
         "name": "Playa Copacabana",
         "country": "Brasil",
         "type": "playa",
         "description": "Famosa playa urbana en Río de Janeiro con gran ambiente y cultura local.",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Copacabana_Beach_Rio_de_Janeiro.jpg"
+        "imageUrl": "https://lonelyplanetes.cdnstatics2.com/cdn/ff/Te4_yv6il3QoMpy8CnrGajzAwLPcGI8b_ML7F54kq34/1693385745/public/styles/wide/public/inline-images/espana_galicia_cies_playarodas_shutterstock_1199258830_lunamarina_shutterstock.jpg?itok=hyU-7Bow"
+      },
+      {
+        "name": "Templo Senso-ji",
+        "country": "Japón",
+        "type": "templo",
+        "description": "El templo budista más antiguo de Tokio, ubicado en Asakusa.",
+        "imageUrl": "https://lp-cms-production.imgix.net/2019-06/GettyImages-471340640_super.jpg?w=1095&fit=crop&crop=faces%2Cedges&auto=format&q=75"
       },
       {
         "name": "Templo Dorado",
         "country": "India",
         "type": "templo",
         "description": "Lugar sagrado del sijismo en Amritsar, rodeado de un lago sereno.",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Golden_Temple_in_the_evening.jpg"
+        "imageUrl": "https://etheriamagazine.com/wp-content/uploads/2019/04/Templos-Asia-Banteay-Srei-Camboya.jpg"
       },
       {
         "name": "Madrid",
         "country": "España",
-        "type": "ciudad",
+        "type": "pais",
         "description": "Capital cultural de España con arquitectura impresionante y vida nocturna vibrante.",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Palacio_de_Cibeles_Madrid_2016.jpg"
+        "imageUrl": "https://viajes.nationalgeographic.com.es/medio/2019/03/20/puerta-del-sol-madrid_acdeeb0f_1280x720.jpg"
+      },
+      {
+        "name": "Barcelona",
+        "country": "España",
+        "type": "pais",
+        "description": "Famosa por su arquitectura modernista y el mar Mediterráneo.",
+        "imageUrl": "https://lonelyplanetes.cdnstatics2.com/cdn/ff/biThoh94mAfAEATLbdiLAk2SjHzdnmKbnZDW3PPLwA4/1710167713/public/styles/469x469_scale_crop/public/media/Espana_Catalunya_Barcelona_ParkGuell__shutterstock_164058875_Luciano%20Mortula_Shutterstock.jpg?itok=rvv4umel"
       }
     ]
   }
